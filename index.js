@@ -1,5 +1,6 @@
 import { realDictionary } from './dictionary.js';
-const dictionary = ['Jesus', 'Santa', 'gifts', 'happy', 'merry', 'X-mas'];
+const dictionary = realDictionary;
+//const dictionary = ['Jesus', 'Santa', 'gifts', 'happy', 'merry', 'X-mas'];
 const state = {
   secret: dictionary[Math.floor(Math.random() * dictionary.length)],
   grid: Array(6)
