@@ -159,19 +159,9 @@ function removeLetter() {
   state.currentCol--;
 }
 
-function drawSubmit(container) {
-  const button = document.createElement('button');
-  button.className = sButton;
-  button.textContent = "Click";
-  button.setAttribute("type", "button");
-  container.appendChild(button)
-}
-
 function startup() {
   const game = document.getElementById('game');
-  const submit = document.getElementById('submit');
   drawGrid(game);
-  drawSubmit(submit);
   registerKeyboardEvents();
 }
 
