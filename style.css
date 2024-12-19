@@ -34,6 +34,10 @@ body {
   grid-template-columns: repeat(5, auto);
 }
 
+.button {
+  color: white;
+}
+
 .box {
   width: 60px;
   height: 60px;
