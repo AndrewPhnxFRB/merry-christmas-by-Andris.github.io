@@ -173,7 +173,9 @@ function resetGrid() {
       box.textContent = '';
     }
   }
-  state.secret = dictionary[Math.floor(Math.random() * dictionary.length)]
+  state.secret = dictionary[Math.floor(Math.random() * dictionary.length)];
+  state.currentRow = 0;
+  state.currentCol = 0;
 }
 
 startup();
