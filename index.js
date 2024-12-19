@@ -136,6 +136,7 @@ function revealWord(guess) {
 
   setTimeout(() => {
     if (isWinner) {
+      window.open('boldogKaracsonyt.html')
       alert('Congratulations!');
     } else if (isGameOver) {
       alert(`Better luck next time! The word was ${state.secret}.`);
