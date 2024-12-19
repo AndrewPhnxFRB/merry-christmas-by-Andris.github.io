@@ -1,4 +1,4 @@
-import {realDictionary} from 'dictionary.js';
+import { realDictionary } from './dictionary.js';
 const dictionary = realDictionary;
 const solutions = ['Jesus', 'Santa', 'gifts', 'happy', 'merry', 'X-mas'];
 const state = {
