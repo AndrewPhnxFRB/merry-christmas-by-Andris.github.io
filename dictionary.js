@@ -1,6 +1,10 @@
-export const testDictionary = ['earth', 'plane', 'crane', 'audio', 'house', 'offer', 'often'];
-
 export const realDictionary = [
+  "Santa",
+  "Jesus",
+  "merry",
+  "happy",
+  "gifts",
+  "X-mas",
   "which",
   "there",
   "their",
