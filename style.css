@@ -87,3 +87,7 @@ hr {
   border-color: var(--empty);
   border-width: 1px;
 }
+
+#kep {
+  width: 800px;
+}
