@@ -34,7 +34,8 @@ body {
 }
 
 button {
-  background: var(--right);
+  background-color: var(--right);
+  color: black;
   height: 40px;
   width: 50px;
   font-size: 25px
