@@ -166,4 +166,14 @@ function startup() {
   registerKeyboardEvents();
 }
 
+function resetGrid() {
+  for (let i = 0; i < state.grid.length; i++) {
+    for (let j = 0; j < state.grid[i].length; j++) {
+      const box = document.getElementById(`box${i}${j}`);
+      box.textContent = '';
+    }
+  }
+  state.secret = dictionary[Math.floor(Math.random() * dictionary.length)]
+}
+
 startup();
