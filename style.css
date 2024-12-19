@@ -75,29 +75,8 @@ body {
   position: relative;
 }
 
-.title-word-clone {
-  position: absolute;
-  left: calc(50% + 75px);
-  transform: rotate(25deg);
-  color: yellow;
-  font-size: 1.2rem;
-}
-
 hr {
   border-style: solid;
   border-color: var(--empty);
   border-width: 1px;
-}
-
-.footer {
-  display: flex;
-  justify-content: center;
-  color: white;
-  text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.v-separator {
-  margin-left: 1rem;
-  margin-right: 1rem;
 }
