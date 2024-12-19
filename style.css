@@ -75,15 +75,6 @@ body {
   position: relative;
 }
 
-.description {
-  color: white;
-  text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 1rem;
-  margin-bottom: 0;
-  position: relative;
-}
-
 hr {
   border-style: solid;
   border-color: var(--empty);
