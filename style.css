@@ -24,7 +24,7 @@ body {
   justify-content: center;
   align-items: start;
   width: 100%;
-  height: 20px;
+  height: 50px;
 }
 
 .grid {
@@ -34,10 +34,10 @@ body {
 }
 
 button {
-  color: var(--right);
-  height: 15px;
+  background: var(--right);
+  height: 40px;
   width: 50px;
-  font-size: 10px
+  font-size: 25px
 }
 
 .box {
