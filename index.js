@@ -1,3 +1,4 @@
+import {realDictionary } from './dictionary.js';
 const dictionary = ['xmass', 'Jesus', 'Santa', 'famil', 'gifts', 'loves'];
 const state = {
   secret: dictionary[Math.floor(Math.random() * dictionary.length)],
