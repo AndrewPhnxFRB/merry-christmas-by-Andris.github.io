@@ -1,4 +1,4 @@
-const dictionary = ['xmas', 'Jesus', 'Santa', 'family', 'gifts', 'love'];
+const dictionary = ['xmass', 'Jesus', 'Santa', 'famil', 'gifts', 'loves'];
 const state = {
   secret: dictionary[Math.floor(Math.random() * dictionary.length)],
   grid: Array(6)
