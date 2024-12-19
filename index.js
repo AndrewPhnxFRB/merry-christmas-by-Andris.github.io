@@ -1,9 +1,4 @@
-import { testDictionary, realDictionary } from './dictionary.js';
-
-// for testing purposes, make sure to use the test dictionary
-console.log('test dictionary:', testDictionary);
-
-const dictionary = realDictionary;
+const dictionary = ['xmas', 'Jesus', 'Santa', 'family', 'gifts', 'love'];
 const state = {
   secret: dictionary[Math.floor(Math.random() * dictionary.length)],
   grid: Array(6)
