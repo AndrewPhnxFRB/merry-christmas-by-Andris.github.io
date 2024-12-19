@@ -1,10 +1,10 @@
 export const realDictionary = [
-  "Santa",
-  "Jesus",
+  "santa",
+  "jesus",
   "merry",
   "happy",
   "gifts",
-  "X-mas",
+  "x-mas",
   "which",
   "there",
   "their",
