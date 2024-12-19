@@ -75,6 +75,10 @@ body {
   position: relative;
 }
 
+.description {
+  color: var(--wrong);
+}
+
 hr {
   border-style: solid;
   border-color: var(--empty);
