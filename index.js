@@ -162,7 +162,9 @@ function removeLetter() {
 function drawSubmit(container) {
   const button = document.createElement('button');
   button.className = sButton;
+  button.textContent = "Click";
   button.setAttribute("type", "button");
+  container.appendChild(button)
 }
 
 function startup() {
