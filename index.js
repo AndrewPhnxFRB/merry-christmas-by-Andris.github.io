@@ -137,9 +137,9 @@ function revealWord(guess) {
   setTimeout(() => {
     if (isWinner) {
       window.open('boldogKaracsonyt.html')
-      alert('Congratulations!');
+      alert('Gratula, Kitaláltad!');
     } else if (isGameOver) {
-      alert(`Better luck next time! The word was ${state.secret}.`);
+      alert(`Majd a következőnek menni fog! A szó ${state.secret} volt.`);
     }
   }, 3 * animation_duration);
 }
